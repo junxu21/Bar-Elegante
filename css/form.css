@@ -1,0 +1,143 @@
+.page-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.page-container > .content-wrapper {
+    width: 1000px;
+}
+
+
+.page-container > .content-wrapper > #chef {
+    width: 350px;
+    margin: 23px 40px 20px 0px;
+    float: left;
+    border: 1px solid #cea135;
+}
+
+
+.page-container > .content-wrapper p {
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.contact-grid-wrapper {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 100px;
+}
+
+
+.company-metadata-sidebar-wrapper > .logo img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.company-metadata-sidebar-wrapper > .company-details-wrapper {
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 1.25em;
+}
+
+
+.company-metadata-sidebar-wrapper > .company-details-wrapper i {
+    color: #cea135;
+}
+
+
+form > .form-group {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+form input {
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: black;
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    border: none;
+    border-bottom: 3px solid #11122b;
+    width: 100%;
+    display: block;
+    transition: all 0.3s;
+}
+
+
+form input:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid #cea135;
+}
+
+
+form textarea {
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+    border-radius: 3px;
+    border: 3px solid #11122b;
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: color;
+    padding: 1.5rem 2rem;
+    transition: all 0.3s;
+}
+
+
+form textarea:focus {
+    outline: none;
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.1);
+    border: 3px solid #cea135;
+}
+
+
+form input::-webkit-input-placeholder, form textarea::-webkit-input-placeholder {
+    color: #11122b;
+}
+
+
+form input:focus::-webkit-input-placeholder, form textarea:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+
+form label {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    display: block;
+    transition: all 0.3s;
+    color: #cea135;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+form input:focus + label, form textarea:focus + label {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(1rem);
+}
+
+
+
+.btn:active {
+    box-shadow: 5px 5px 30px rgba(162, 97, 0, 0.4);
+}
+
+
+.center-btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
